@@ -1,20 +1,28 @@
-# ASMS Healthcare Platform & Credential Engine
+# ◈ ASMS Healthcare Platform & Credential Engine
 
 > **Production Platform Case Study**  
 > An enterprise healthcare portal and automated clinical verification engine engineered for **AYUSH Shubham Institute of Medical Sciences** (Accredited Section-8 Non-Profit Medical Research Trust).
+
+[![Live Platform](https://img.shields.io/badge/Live_Platform-asms--iota.vercel.app-1e293b?style=for-the-badge&logo=vercel&logoColor=white)](https://asms-iota.vercel.app/)
+[![Architecture Case Study](https://img.shields.io/badge/Architecture-Case_Study-334155?style=for-the-badge&logo=gitbook&logoColor=white)](#-system-architecture--request-lifecycle)
+[![Next.js 15](https://img.shields.io/badge/Next.js_15-18181b?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript_5+-27272a?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3f3f46?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vercel Edge](https://img.shields.io/badge/Vercel-Edge_Network-18181b?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Section-8 Trust](https://img.shields.io/badge/Section--8_Trust-Govt_Accredited-3f3f46?style=flat-square)](https://asms-iota.vercel.app/)
 
 ---
 
 > [!IMPORTANT]
 > **About This Repository**  
 > This repository is a **technical case study and architectural showcase** of an active, production-deployed platform.
-> - **Production Deployment:** [https://asms-iota.vercel.app/](https://asms-iota.vercel.app/) (Live and serving patients/candidates across India)
+> - 🔗 **Live Production Deployment:** [https://asms-iota.vercel.app/](https://asms-iota.vercel.app/) (Live and serving patients/candidates across India)
 > - **Why this structure?** Because this platform handles real candidate records and patient inquiries under a commercial non-disclosure agreement (NDA), the underlying databases (`data/asms_database.json`) and private administrative keys remain securely maintained in the client's private deployment repository.
 > - **What you will find here:** System architecture specifications, Mermaid data-flow diagrams, code samples of key engineering challenges conquered, and detailed performance benchmarks.
 
 ---
 
-## Live System Links
+## ◈ Live Platform & Interactive Routes
 
 | Section | Production URL | Description |
 | :--- | :--- | :--- |
@@ -26,7 +34,7 @@
 
 ---
 
-## Tech Stack & Tooling
+## ◈ Tech Stack & Tooling
 
 - **Core Framework:** Next.js 15 (App Router, React Server Components)
 - **Language:** TypeScript 5+ (Strict Mode)
@@ -36,7 +44,7 @@
 
 ---
 
-## System Architecture
+## ◈ System Architecture & Request Lifecycle
 
 ```mermaid
 flowchart TD
@@ -60,7 +68,7 @@ flowchart TD
 
 ---
 
-## Production Codebase Structure
+## ◈ Production Codebase Directory Layout
 
 Here is how the underlying production codebase is organized:
 
@@ -87,7 +95,7 @@ asms-platform/
 
 ---
 
-## Key Engineering Challenges Conquered
+## ◈ Hard Engineering Battles & Problem Diagnosis
 
 ### 1. Relume vs. Tailwind CSS Specificity Conflict
 * **Problem:** Layout classes from Relume collided with Tailwind CSS utilities, causing mobile navigation drawers and verification popovers to render off-screen with opacity zero.
@@ -108,7 +116,7 @@ asms-platform/
 
 ---
 
-## Performance & Quality Metrics
+## ◈ Performance & Core Web Vitals Metrics
 
 - **Lighthouse Performance Score:** 98 / 100
 - **Largest Contentful Paint (LCP):** < 1.1s on mobile
@@ -117,5 +125,5 @@ asms-platform/
 
 ---
 
-## Professional Notice & Confidentiality
+## ◈ Professional Notice & Confidentiality Boundary
 *This repository is maintained as a technical portfolio case study. Candidate databases, internal administrative credentials, and client contractual materials are strictly confidential under commercial agreements.*
